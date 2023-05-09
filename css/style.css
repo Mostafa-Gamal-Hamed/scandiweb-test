@@ -1,0 +1,20 @@
+/* Product List */
+.container .show_product{
+  width: 250px; height: 200px;
+  position: relative;
+
+}
+.container .show_product .check{
+  position: absolute;
+  left: 10px; top: 10px;
+}
+
+/* Add Product */
+form .main .hid{
+  display: none;
+}
+label.error{
+  /* display: contents; */
+  color: red;
+  text-align: start;
+}
